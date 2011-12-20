@@ -75,5 +75,10 @@ module Artwork
       resize_to_fit(params[:splat].join('/'), 500, 500)
     end
 
+    get '/*_*.jpg' do |path, format|
+      width, height = format.split('x').map {|x| x.to_i }
+      resize_to_fit(path, width, height)
+    end
+
   end
 end

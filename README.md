@@ -21,6 +21,7 @@ Artwork can handle pretty much any image formats, but will transcode to JPG by d
 * <code>\_small.jpg</code> - 125x125 (JPG)
 * <code>\_medium.jpg</code> - 240x240 (JPG)
 * <code>\_large.jpg</code> - 500x500 (JPG)
+* <code>\_100x150.jpg</code> - Custom size (resize to fit)
 
 More formats will be added.
 
